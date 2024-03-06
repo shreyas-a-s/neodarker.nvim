@@ -5,8 +5,8 @@ local default_config = {
     gamma = 1.00,
     styles = {
         comments = { italic = true },
-        keywords = { italic = true },
-        identifiers = { italic = true },
+        keywords = { italic = false },
+        identifiers = { italic = false },
         functions = {},
         variables = {},
     },

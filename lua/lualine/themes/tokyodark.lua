@@ -21,7 +21,7 @@ local tokyo_dark = {
         c = { fg = colors.grey, bg = colors.bg },
         x = { fg = colors.grey, bg = colors.bg },
         y = { fg = colors.grey, bg = colors.bg },
-        z = { fg = colors.grey, bg = colors.bg },
+        z = { fg = colors.grey, bg = colors.bg, gui = "bold" },
     },
     normal = {
         a = { fg = colors.bg, bg = colors.green, gui = "bold" },
@@ -29,7 +29,7 @@ local tokyo_dark = {
         c = { fg = colors.fg, bg = colors.bg },
         x = { fg = colors.fg, bg = colors.bg },
         y = { fg = colors.fg, bg = colors.bg },
-        z = { fg = colors.fg, bg = colors.bg },
+        z = { fg = colors.bg, bg = colors.green, gui = "bold" },
     },
     visual = { a = { fg = colors.bg, bg = colors.purple, gui = "bold" } },
     replace = { a = { fg = colors.bg, bg = colors.red, gui = "bold" } },
