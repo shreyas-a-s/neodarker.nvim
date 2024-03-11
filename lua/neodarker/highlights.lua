@@ -404,6 +404,10 @@ M.highlights = {
     scalaTypeOperator = { fg = p.red },
     scalaOperator = { fg = p.red },
     scalaKeywordModifier = { fg = p.red },
+
+    -- nvim-tree
+    NvimTreeExecFile  = { fg = p.orange },
+    NvimTreeSpecialFile  = { fg = p.yellow },
 }
 
 function M.setup()
