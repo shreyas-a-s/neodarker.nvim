@@ -1,3 +1,5 @@
+![Screenshot from 2024-03-12 02-16-59](https://github.com/shreyas-a-s/neodarker.nvim/assets/137637016/baaa6d60-500d-4565-bf38-0af250222e5e)
+
 ### About
 
 A clean dark theme written in lua for neovim (0.7.2 or older).
