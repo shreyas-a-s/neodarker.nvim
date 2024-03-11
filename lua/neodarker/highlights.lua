@@ -412,6 +412,7 @@ M.highlights = {
     -- nvim-tree
     NvimTreeExecFile  = { fg = p.orange },
     NvimTreeSpecialFile  = { fg = p.yellow },
+    NvimTreeIndentMarker = { fg = p.bg3 },
 }
 
 function M.setup()
