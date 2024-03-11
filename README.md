@@ -47,6 +47,6 @@ Install with your favorite package manager:
 }
 ```
 
-### Inspiration
+### Acknowledgements
 
-- [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
+- This colorscheme repo is forked from [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim).
