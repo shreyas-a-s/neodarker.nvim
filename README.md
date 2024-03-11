@@ -1,7 +1,3 @@
-![tokyodark.nvim](https://user-images.githubusercontent.com/30515389/141231977-82476546-eb48-47e4-a5fc-45ace7eacb0d.png)
-
-![image](https://user-images.githubusercontent.com/30515389/115807570-42385080-a3bf-11eb-8286-c981b5093ffa.png)
-
 ### About
 
 A clean dark theme written in lua for neovim (0.7.2 or older).
@@ -24,8 +20,8 @@ Install with your favorite package manager:
         -- custom options here
     },
     config = function(_, opts)
-        require("tokyodark").setup(opts) -- calling setup is optional
-        vim.cmd [[colorscheme tokyodark]]
+        require("neodarker").setup(opts) -- calling setup is optional
+        vim.cmd.colorscheme("neodarker")
     end,
 }
 ```
@@ -33,13 +29,13 @@ Install with your favorite package manager:
 ### Default configuration
 
 ```lua
-local default_config = {
+{
     transparent_background = false, -- set background to transparent
     gamma = 1.00, -- adjust the brightness of the theme
     styles = {
-        comments = { italic = true }, -- style for comments
-        keywords = { italic = true }, -- style for keywords
-        identifiers = { italic = true }, -- style for identifiers
+        comments = { italic = false }, -- style for comments
+        keywords = { italic = false }, -- style for keywords
+        identifiers = { italic = false }, -- style for identifiers
         functions = {}, -- style for functions
         variables = {}, -- style for variables
     },
