@@ -17,7 +17,7 @@ Install with your favorite package manager:
 
 ``` lua
 {
-    "tiagovla/tokyodark.nvim",
+    "shreyas-a-s/neodarker.nvim",
     opts = {
         -- custom options here
     },
@@ -49,5 +49,4 @@ Install with your favorite package manager:
 
 ### Inspiration
 
-- [tokyonight-vim](https://github.com/ghifarit53/tokyonight-vim)
-- [tokyo-night-vscode-theme](https://github.com/enkia/tokyo-night-vscode-theme)
+- [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim)
