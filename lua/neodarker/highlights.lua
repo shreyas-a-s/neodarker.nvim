@@ -1,7 +1,7 @@
-local p = require("tokyodark.palette")
-local utils = require("tokyodark.utils")
-local config = require("tokyodark.config")
-local terminal = require("tokyodark.terminal")
+local p = require("neodarker.palette")
+local utils = require("neodarker.utils")
+local config = require("neodarker.config")
+local terminal = require("neodarker.terminal")
 
 local M = {}
 

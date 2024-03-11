@@ -1,7 +1,7 @@
 -- for k in pairs(package.loaded) do
---     if k:match(".*tokyodark.*") then
+--     if k:match(".*neodarker.*") then
 --         package.loaded[k] = nil
 --     end
 -- end
 
-require("tokyodark").colorscheme()
+require("neodarker").colorscheme()
