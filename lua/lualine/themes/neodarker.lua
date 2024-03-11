@@ -14,7 +14,7 @@ local colors = {
     grey = p.grey,
 }
 
-local tokyo_dark = {
+local neo_darker = {
     inactive = {
         a = { fg = colors.grey, bg = colors.bg, gui = "bold" },
         b = { fg = colors.grey, bg = colors.bg },
@@ -44,6 +44,6 @@ function mt:__index(k)
     end
 end
 
-tokyo_dark = setmetatable(tokyo_dark, mt)
+neo_darker = setmetatable(neo_darker, mt)
 
-return tokyo_dark
+return neo_darker
