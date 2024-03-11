@@ -69,9 +69,9 @@ M.highlights = {
     DiffDelete = { fg = p.none, bg = p.diff_delete },
     DiffText = { fg = p.none, bg = p.diff_text },
     Directory = { fg = p.green },
-    ErrorMsg = { fg = p.red, bold = true, underline = true },
-    WarningMsg = { fg = p.yellow, bold = true },
-    MoreMsg = { fg = p.blue, bold = true },
+    ErrorMsg = { fg = p.red, underline = true },
+    WarningMsg = { fg = p.yellow },
+    MoreMsg = { fg = p.blue },
     IncSearch = { fg = p.bg0, bg = p.bg_red },
     Search = { fg = p.bg0, bg = p.bg_green },
     CurSearch = { fg = p.bg0, bg = p.bg_red },
@@ -149,7 +149,7 @@ M.highlights = {
 
     -- flash
     FlashBackdrop = { fg = p.bg4 },
-    FlashLabel = { fg = p.bg0, bg = p.blue, bold = true },
+    FlashLabel = { fg = p.bg0, bg = p.blue },
 
     -- gitgutter
     GitGutterAdd = { fg = p.diff_green },
