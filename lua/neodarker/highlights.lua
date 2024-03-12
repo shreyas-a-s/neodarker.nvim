@@ -421,6 +421,13 @@ M.highlights = {
     NvimTreeExecFile  = { fg = p.orange },
     NvimTreeSpecialFile  = { fg = p.yellow },
     NvimTreeIndentMarker = { fg = p.bg3 },
+
+    -- Noice
+    NoiceCmdlineIcon = { link = 'DiagnosticSignInfo' },
+    NoiceCmdlinePopupBorder = { link = 'DiagnosticSignHint' },
+    NoiceCmdlinePopupTitle = { link = 'DiagnosticSignHint' },
+    NoiceFormatProgressDone = { fg = p.fg, bg = p.select },
+    NoiceCmdlinePrompt = { fg = p.fg, bg = "NONE" },
 }
 
 function M.setup()

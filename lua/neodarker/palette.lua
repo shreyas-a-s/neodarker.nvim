@@ -36,6 +36,7 @@ local palette = {
     info_bg = "#342f25",
     warn_bg = "#34291b",
     error_bg = "#332222",
+    select = "#03395e",
     none = "NONE",
 }
 
