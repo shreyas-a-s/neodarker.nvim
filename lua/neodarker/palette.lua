@@ -28,6 +28,14 @@ local palette = {
     cyan = "#38A89D",
     purple = "#A485DD",
     grey = "#4A5057",
+    hint = "#4bc1fe",
+    info = "#FFCC66",
+    warn = "#ff8800",
+    error = "#F44747",
+    hint_bg = "#232e34",
+    info_bg = "#342f25",
+    warn_bg = "#34291b",
+    error_bg = "#332222",
     none = "NONE",
 }
 
