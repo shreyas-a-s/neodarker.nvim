@@ -424,7 +424,7 @@ M.highlights = {
 
     -- Noice
     NoiceCmdlineIcon = { link = 'DiagnosticSignInfo' },
-    NoiceCmdlinePopupBorder = { link = 'DiagnosticSignHint' },
+    NoiceCmdlinePopupBorder = { link = 'DiagnosticSignInfo' },
     NoiceCmdlinePopupTitle = { link = 'DiagnosticSignHint' },
     NoiceFormatProgressDone = { fg = p.fg, bg = p.select },
     NoiceCmdlinePrompt = { fg = p.fg, bg = "NONE" },
