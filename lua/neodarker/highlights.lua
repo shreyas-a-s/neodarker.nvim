@@ -428,6 +428,63 @@ M.highlights = {
     NoiceCmdlinePopupTitle = { link = 'DiagnosticSignHint' },
     NoiceFormatProgressDone = { fg = p.fg, bg = p.select },
     NoiceCmdlinePrompt = { fg = p.fg, bg = "NONE" },
+
+    -- Lua
+    ["@lsp.typemod.variable.global.lua"] = { fg = p.cyan, bg = 'NONE' },
+    ["@lsp.typemod.variable.defaultLibrary.lua"] = { fg = p.cyan, bg = 'NONE' },
+    ["@lsp.mod.global.lua"] = { fg = p.cyan, bg = 'NONE' },
+    ["@constant.builtin.lua"] = { fg = p.cyan, bg = 'NONE' },
+    ["@field.lua"] = { fg = p.blue_2, bg = 'NONE' },
+    ["@constructor.lua"] = { fg = p.fg, bg = 'NONE' },
+    ["@variable.lua"] = { fg = p.blue_2, bg = 'NONE' },
+    ["@lsp.type.variable.lua"] = { fg = p.blue_2, bg = 'NONE' },
+    ["@lsp.typemod.function.global.lua"] = { link = 'Function' },
+    ["@lsp.typemod.variable.declaration.lua"] = { link = 'Variable' },
+
+    -- Typescript
+    ["@lsp.type.interface.typescriptreact"] = { fg = p.cyan, bg = 'NONE' },
+    ["@lsp.type.namespace.typescriptreact"] = { fg = p.cyan, bg = 'NONE' },
+    ["@lsp.typemod.variable.readonly.typescriptreact"] = { fg = p.blue_3, bg = 'NONE' },
+
+    typescriptArrowFuncArg = { fg = p.fg, bg = 'NONE' },
+    typescriptCall = { fg = p.fg, bg = 'NONE' },
+    typescriptTemplateSB = { fg = p.purple, bg = 'NONE' },
+    typescriptBraces = { fg = p.fg, bg = 'NONE' },
+
+    ["@tag.tsx"] = { fg = p.cyan, bg = 'NONE' },
+    ["@tag.jsx"] = { fg = p.cyan, bg = 'NONE' },
+
+    -- CSS
+    ["@string.special.css"] = { fg = p.dark_yellow, bg = 'NONE' },
+    ["@type.definition.css"] = { fg = p.blue_2, bg = 'NONE' },
+
+    -- Rust
+    rustEnumVariant = { fg = p.cyan, bg = 'NONE' },
+    rustSigil = { fg = p.fg, bg = 'NONE' },
+    rustEscape = { link = 'String' },
+    ["@lsp.type.formatSpecifier.rust"] = { link = '@punctuation.special' },
+    ["@lsp.mod.asynp.rust"] = { fg = p.purple, bg = 'NONE' },
+    ["@lsp.typemod.function.declaration.rust"] = { fg = p.yellow, bg = 'NONE' },
+    ["@type.qualifier.rust"] = { fg = p.blue_1, bg = 'NONE' },
+    ["@lsp.typemod.method.reference.rust"] = { fg = p.yellow, bg = 'NONE' },
+    ["@lsp.typemod.keyword.controlFlow.rust"] = { fg = p.purple, bg = 'NONE' },
+    ["@lsp.typemod.decorator.library.rust"] = { fg = p.yellow, bg = 'NONE' },
+    ["@lsp.typemod.function.asynp.rust"] = { fg = p.yellow, bg = 'NONE' },
+
+    -- toml
+    ["@type.toml"] = { fg = p.blue_1, bg = 'NONE' },
+
+    -- html
+    ["@markup.heading.html"] = { fg = p.fg, bg = 'NONE' },
+
+    -- zsh
+    zshCommands = { fg = p.yellow, bg = 'NONE' },
+    zshDeref = { fg = p.fg, bg = 'NONE' },
+    zshShortDeref = { fg = p.fg, bg = 'NONE' },
+    zshSubst = { fg = p.fg, bg = 'NONE' },
+    zshVariableDef = { fg = p.fg, bg = 'NONE' },
+    zshSubstDelim = { link = '@punctuation.special' },
+    zshKSHFunction = { link = 'Function' },
 }
 
 function M.setup()
