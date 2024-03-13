@@ -421,6 +421,7 @@ M.highlights = {
     NvimTreeExecFile  = { fg = p.orange },
     NvimTreeSpecialFile  = { fg = p.yellow },
     NvimTreeIndentMarker = { fg = p.bg3 },
+    NvimTreeImageFile = { fg = p.purple },
 
     -- Noice
     NoiceCmdlineIcon = { link = 'DiagnosticSignInfo' },
