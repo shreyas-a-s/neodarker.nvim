@@ -439,6 +439,7 @@ M.highlights = {
     ["@constructor.lua"] = { fg = p.fg, bg = 'NONE' },
     ["@variable.lua"] = { fg = p.blue_2, bg = 'NONE' },
     ["@lsp.type.variable.lua"] = { fg = p.blue_2, bg = 'NONE' },
+    ["@lsp.type.function.lua"] = { fg = p.purple, bg = 'NONE' },
     ["@lsp.typemod.function.global.lua"] = { link = 'Function' },
     ["@lsp.typemod.variable.declaration.lua"] = { link = 'Variable' },
 
