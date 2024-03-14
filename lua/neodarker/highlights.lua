@@ -85,7 +85,7 @@ M.highlights = {
     PmenuThumb = { fg = p.none, bg = p.bg2 },
     WildMenu = { fg = p.bg0, bg = p.blue },
     Question = { fg = p.yellow },
-    SpellBad = { fg = p.red, undercurl = true, sp = p.red },
+    SpellBad = { undercurl = true, sp = p.red },
     SpellCap = { fg = p.yellow, undercurl = true, sp = p.yellow },
     SpellLocal = { fg = p.blue, undercurl = true, sp = p.blue },
     SpellRare = { fg = p.purple, undercurl = true, sp = p.purple },
