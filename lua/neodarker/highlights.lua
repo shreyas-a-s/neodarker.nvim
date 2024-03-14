@@ -460,7 +460,7 @@ M.highlights = {
 
     -- Lua
     ["@lsp.typemod.variable.global.lua"] = { fg = p.cyan, bg = 'NONE' },
-    ["@lsp.typemod.variable.defaultLibrary.lua"] = { fg = p.cyan, bg = 'NONE' },
+    ["@lsp.typemod.variable.defaultLibrary.lua"] = { fg = p.bronze, bg = 'NONE' },
     ["@lsp.mod.global.lua"] = { fg = p.cyan, bg = 'NONE' },
     ["@constant.builtin.lua"] = { fg = p.cyan, bg = 'NONE' },
     ["@field.lua"] = { fg = p.blue_2, bg = 'NONE' },

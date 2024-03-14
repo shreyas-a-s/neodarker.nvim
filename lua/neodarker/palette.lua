@@ -28,6 +28,7 @@ local palette = {
     cyan = "#38A89D",
     purple = "#A485DD",
     grey = "#4A5057",
+    bronze = "#CD7F32",
     hint = "#4bc1fe",
     info = "#FFCC66",
     warn = "#ff8800",
