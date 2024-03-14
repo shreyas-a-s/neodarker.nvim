@@ -1,4 +1,4 @@
-![Screenshot from 2024-03-12 02-16-59](https://github.com/shreyas-a-s/neodarker.nvim/assets/137637016/baaa6d60-500d-4565-bf38-0af250222e5e)
+![neodarker](https://github.com/shreyas-a-s/neodarker.nvim/assets/137637016/b6b7c0c7-8912-4318-ba14-581554fd1781)
 
 ### About
 
