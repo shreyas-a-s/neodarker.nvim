@@ -34,19 +34,19 @@ local neo_darker = {
     },
     visual = {
         a = { fg = colors.bg, bg = colors.purple, gui = "bold" },
-        b = { fg = colors.purple },
+        b = { fg = colors.purple, bg = colors.bg6 },
     },
     replace = {
         a = { fg = colors.bg, bg = colors.red, gui = "bold" },
-        b = { fg = colors.red },
+        b = { fg = colors.red, bg = colors.bg6 },
     },
     insert = {
         a = { fg = colors.bg, bg = colors.blue, gui = "bold" },
-        b = { fg = colors.blue },
+        b = { fg = colors.blue, bg = colors.bg6 },
     },
     command = {
         a = { fg = colors.bg, bg = colors.yellow, gui = "bold" },
-        b = { fg = colors.yellow },
+        b = { fg = colors.yellow, bg = colors.bg6 },
     },
 }
 
