@@ -9,6 +9,7 @@ local palette = {
     bg3 = "#353945",
     bg4 = "#4A5057",
     bg5 = "#282C34",
+    bg6 = "#373737",
     bg_red = "#FE6D85",
     bg_green = "#98C379",
     bg_blue = "#9FBBF3",
