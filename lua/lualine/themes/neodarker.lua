@@ -48,6 +48,10 @@ local neo_darker = {
         a = { fg = colors.bg, bg = colors.yellow, gui = "bold" },
         b = { fg = colors.yellow, bg = colors.bg6 },
     },
+    terminal = {
+        a = { fg = colors.bg, bg = colors.cyan, gui = "bold" },
+        b = { fg = colors.cyan, bg = colors.bg6 },
+    },
 }
 
 local mt = {}
