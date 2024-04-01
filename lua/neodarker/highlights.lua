@@ -450,6 +450,7 @@ M.highlights = {
     ["@markup.strikethrough"] = { strikethrough = true },
     ["@markup.strong"] = { bold = true },
     ["@markup.underline"] = { underline = true },
+    ["@markup.italic"] = { italic = true },
 
     -- scala
     scalaNameDefinition = { fg = p.fg },
