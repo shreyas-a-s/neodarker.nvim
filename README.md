@@ -50,3 +50,13 @@ Install with your favorite package manager:
 ### Acknowledgements
 
 - This colorscheme repo is forked from [tokyodark.nvim](https://github.com/tiagovla/tokyodark.nvim).
+
+### Major changes from tokyodark
+- Changed the name and added new screenshot 😎
+- Disable italics for comments, keywords & identifiers by default
+- Customise nvim-tree colors a bit
+- Made the whole colorschem less bold because I like it that way
+- Reduce the use of underlines because I find it distracting
+- Added a lot of lsp related highlights, mostly taken from [darkplus.nvim](https://github.com/LunarVim/darkplus.nvim)
+- Added unique colors for different levels of markdown headings
+- Added MIT LICENSE as separate file
