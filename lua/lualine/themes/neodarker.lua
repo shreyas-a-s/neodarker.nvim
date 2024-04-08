@@ -1,6 +1,3 @@
--- Copyright (c) 2021-2022 tiagovla
--- License: MIT
---
 local p = require("neodarker.palette")
 local colors = {
     bg = p.bg1,
