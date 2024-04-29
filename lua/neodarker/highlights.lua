@@ -63,7 +63,7 @@ M.highlights = {
     ColorColumn = { bg = p.bg1 },
     CursorLineNr = { fg = p.fg },
     LineNr = { fg = p.bg4 },
-    Conceal = { fg = p.grey, bg = p.bg1 },
+    Conceal = { fg = p.grey, bg = p.bg1 } + transparent_bg,
     DiffAdd = { fg = p.none, bg = p.diff_add },
     DiffChange = { fg = p.none, bg = p.diff_change },
     DiffDelete = { fg = p.none, bg = p.diff_delete },
