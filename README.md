@@ -1,3 +1,5 @@
+![neodarker-readme-header](https://github.com/shreyas-a-s/neodarker.nvim/assets/137637016/0310c353-b577-41db-818b-a62a5daf30a2)
+
 ![neodarker](https://github.com/shreyas-a-s/neodarker.nvim/assets/137637016/b6b7c0c7-8912-4318-ba14-581554fd1781)
 
 ### About
